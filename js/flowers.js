@@ -2,9 +2,9 @@ var globalTime = 4.7;
 
 //flowers
 //syntax: (type,itMin,itMax,radius,start,scale,sWidth,sHeight,container,color,maxScale,timeLimit,timeMin,timeMax,timeMult,rotation)
-flower('long',12,27,100,40,0,350,350,'container1',[0.2, 'navy', 0.5, 'blue', 0.8, 'pink', 1, 'white'],50,0.5,4000,300,600,1.5,10);
-flower('rounded',6,12,100,25,0,350,350,'container2',[0.3, 'maroon', 0.6, 'red', 1, 'orange'],35,1,4000,450,700,1.5,30);
-flower('pointed',8,16,100,35,0,350,350,'container3',[0.25, 'white', 0.65, '#ff5bc8', 1, '#5b003d'],18,0.75,4000,400,650,1.5,17);
+flower('pointed',8,16,100,35,0,350,350,'container1',[0.1, 'black', 0.4, 'maroon', 0.65, 'red', 1, 'white'],18,0.75,4000,400,650,1.5,17);
+flower('long',12,27,100,40,0,350,350,'container2',[0.3, 'maroon', 0.6, 'red', 1, 'orange'],50,0.5,4000,300,600,1.5,10);
+flower('rounded',6,12,100,25,0,350,350,'container3',[0.25, 'white', 0.65, '#ff5bc8', 1, '#5b003d'],35,1,4000,450,700,1.5,30);
 
 //functions
 function generatePedal(type,itterations,petalRadius,petalDistance,colors,randomness) {
